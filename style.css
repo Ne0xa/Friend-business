@@ -1,5 +1,5 @@
 body {
-    font-family: fantasy;
+    font-family: Quintessential;
     margin: 0;
     padding: 0;
     background: #f4f4f4;
@@ -44,4 +44,30 @@ nav ul li a {
 nav ul li a:hover {
     color: #008080;
     text-shadow: 0 0 10px #008080, 0 0 20px #008080;
+}
+
+main {
+    max-width: 800px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Tab */
+.tab-content {
+  display: none;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.tab-btn:hover {
+  color: #008080;
+  text-shadow: 0 0 10px #008080, 0 0 20px #008080;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
